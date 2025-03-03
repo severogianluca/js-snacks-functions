@@ -14,6 +14,13 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 //     return newList;
 // }
 
+passaggi:
+// - creo una funzione che prende in input dei nomi
+// - creo un array vuoto chiamato newList
+// - ciclo i nomi e i nomi ciclati la salvo in una variabile chiamata list
+// - di quella list prendo tutte le lettere con indice 0 equivalente la prima lettera
+//   e la pusho nella nuova lista
+// - faccio il return della nuova lista
 iniziali = nomi => {
     const newList = [];
     for(let i = 0 ; i < nomi.length; i++){
