@@ -3,7 +3,17 @@
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
-function iniziali(nomi, input){
+// function iniziali(nomi, input){
+//     const newList = [];
+//     for(let i = 0 ; i < nomi.length; i++){
+//         const list = nomi[i];
+//         if(list[0].toLowerCase() === input.toLowerCase())
+//         newList.push(list)
+//     }
+//     return newList;
+// }
+
+const iniziali = (nomi, input) => {
     const newList = [];
     for(let i = 0 ; i < nomi.length; i++){
         const list = nomi[i];
