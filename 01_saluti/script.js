@@ -2,18 +2,16 @@
 
 const userName = 'Mario';
 
-
 // Dichiara la funzione qui.
 
-// function saluto(){
-//     return 'ciao' + ' ' +  `${userName}`;
+// function saluto(name){
+//     return 'ciao' + ' ' +  `${name}`;
 // }
 
-const saluto = () => 'ciao' + ' ' +  `${userName}`;
-
+const saluto = (name) =>  `ciao ${name}`;
 
 // Invoca la funzione qui e stampa il risultato in console
-const saluta = saluto();
+const saluta = saluto(userName);
 console.log(saluta);
 
 
